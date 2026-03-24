@@ -6,7 +6,7 @@ import './dashboard.css';
 
 const Dashboard = () => {
     return (
-        <div className="dashboard" style={{ background: "red" }} >
+        <div className="dashboard">
             <SpendingCard />
             <SummaryCard />
         </div>
